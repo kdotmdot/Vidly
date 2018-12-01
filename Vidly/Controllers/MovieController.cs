@@ -13,6 +13,8 @@ namespace Vidly.Controllers
         {
             var movie = new Movie(){Id = 1, Name = "Gone in 60 Seconds"};
 
+            var name;
+
             return View (movie);
         }
     }
